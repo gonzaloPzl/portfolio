@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="88" height="70" viewBox="0 0 88 70">
+  <g id="LOGO_PZL" data-name="LOGO PZL" transform="translate(124 490)">
+    <text id="P_L" data-name="P   L" transform="translate(-124 -440)" fill="#282a36" font-size="45" font-family="Almarai-Bold, Almarai" font-weight="700" letter-spacing="0.037em"><tspan x="0" y="0">P</tspan><tspan y="0" xml:space="preserve" fill="#f3f3f3">   </tspan><tspan y="0">L</tspan></text>
+    <path id="Trazado_1" data-name="Trazado 1" d="M72.418-292.869H47.884v-5.576l9.559-11.948,4.328,4.328-6.24,7.621H72.418Z" transform="translate(-139.86 -146.144)" fill="#ff79c6"/>
+    <path id="Trazado_2" data-name="Trazado 2" d="M24.534,17.524H0V11.948L9.559,0l4.328,4.328-6.24,7.621H24.534Z" transform="translate(-67.069 -454.29) rotate(-180)" fill="#bd93f9"/>
+  </g>
+</svg>
