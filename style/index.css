@@ -8,6 +8,64 @@ body {
   color: #fafafa;
 }
 
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.container {
+  max-width: 1200px;
+  flex: 1;
+  margin: 0 auto;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
+  flex-wrap: inherit;
+}
+
+.header {
+  background-color: #282A36;
+  color: #fafafa;
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header__logo {
+  margin: 0;
+}
+.header__logo img {
+  padding: 0;
+  height: 50px;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.header ol {
+  display: flex;
+  height: inherit;
+}
+
+.menu {
+  height: inherit;
+}
+
+.header ol li {
+  height: inherit;
+}
+
 .hero {
   display: flex;
   align-items: center;
@@ -46,62 +104,7 @@ body {
   font-weight: 600;
 }
 
-.hero__animation {
-  margin: 1em 0 0 0.3em;
-  display: flex;
-}
 
-.hero__animation b {
-  float: left;
-  overflow: hidden;
-  position: relative;
-  height: 40px;
-  /* top: 40px; */
-}
-
-.hero__animationTittle {
-  font-size: 30px;
-  height: 30px;
-  float: left;
-  margin-top: 0;
-  margin-right: .3em;
-}
-
-.hero__animationDrop {
-  font-size: 30px;
-  line-height: 40px;
-  /* margin-top: .5em; */
-  display: inline-block;
-  position: relative;
-  top: 0;
-  left: 0;
-  animation-name: move;
-  animation-duration: 10s;
-  /* animation-delay: .5s; */
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-}
-
-@keyframes move{
-  0%, 10%  { top: 0px; }
-  20%, 30% { top: -40px; }
-  40%, 50% { top: -80px; }
-  60%, 70% { top: -120px; }
-  80%, 90% { top: -160px; }
-}
-
-.react {
-  color: #61DAFB;
-}
-.node {
-  color: #83CD29;
-}
-.webpack {
-  color: #8ED5FA;
-}
-.jest {
-  color: #C96F89;
-}
 
 .window {
   background-color: #282A36;
