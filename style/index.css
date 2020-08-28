@@ -1,13 +1,108 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;700;900&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;0,900;1,400&display=swap');
 body {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 500;
+}
+
+.hero {
   display: flex;
-  justify-content: center;
   align-items: center;
-  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+  height: 430px;
+  width: 100%;
+  color: #F3F3F3;
+  background: url(../assets/wallpaper.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero__details {
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: -100px;
+}
+
+.hero__image {
+  height: 278px;
+  width: 278px;
+  border-radius: 50%;
+  background: url(../assets/perfil.png);
+}
+
+.hero__info {
+  margin: 1.5em;
+}
+
+.hero__name {
+  font-size: 50px;
+  margin: 0;
+}
+.hero__name-lastname {
+  font-weight: 600;
+}
+
+.hero__animation {
+  margin-top: 1em;
+  display: flex;
+}
+
+.hero__animation b {
+  float: left;
+  overflow: hidden;
+  position: relative;
+  height: 40px;
+  /* top: 40px; */
+}
+
+.hero__animationTittle {
+  font-size: 30px;
+  height: 30px;
+  float: left;
+  margin-top: 0;
+  margin-right: .3em;
+}
+
+.hero__animationDrop {
+  font-size: 30px;
+  line-height: 40px;
+  /* margin-top: .5em; */
+  display: inline-block;
+  position: relative;
+  top: 0;
+  left: 0;
+  animation-name: move;
+  animation-duration: 10s;
+  /* animation-delay: .5s; */
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes move{
+  0%, 10%  { top: 0px; }
+  20%, 30% { top: -40px; }
+  40%, 50% { top: -80px; }
+  60%, 70% { top: -120px; }
+  80%, 90% { top: -160px; }
+}
+
+.react {
+  color: #61DAFB;
+}
+.node {
+  color: #83CD29;
+}
+.webpack {
+  color: #8ED5FA;
+}
+.jest {
+  color: #C96F89;
 }
 
 .window {
   background-color: #282A36;
+  margin: 40px auto;
   height: 400px;
   width: 700px;
   color: #F3F3F3;
@@ -63,8 +158,6 @@ body {
   padding: 14px;
   font-size: 27px;
   line-height: 1.4em;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-weight: normal;
 }
 
 .window__text--pink {
