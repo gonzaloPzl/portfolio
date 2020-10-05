@@ -125,6 +125,10 @@ ul {
   box-shadow: 5px 5px 8px 0px rgba(40,42,54,0.48);;
 }
 
+.contact {
+  background: #E6E6E6;
+}
+
 .window__bar {
  display: flex;
  align-items: center;
@@ -176,13 +180,31 @@ ul {
   margin-bottom: 0;
 }
 
-.window__text--pink {
+.green {
+  color: #50FA7B;
+  font-weight: 600;
+}
+.lightblue {
+  color: #8BE9FD;
+  font-weight: 600;
+}
+.pink {
   color: #FF79C6;
   font-weight: 600;
 }
-.window__text--violet {
+.violet {
   color: #BD93F9;
-  font-weight: 600;
+  font-weight: 600;  
+}
+
+.contact__item {
+  display: flex;
+}
+
+.contact__text {
+  text-decoration: none;
+  color: #282A36;
+  margin: 1em 0 1em 1em;
 }
 
 .footer {
