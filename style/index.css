@@ -14,6 +14,12 @@ ul {
   list-style: none;
 }
 
+.title {
+  color: #282A36;
+  display: flex;
+  justify-content: center;
+}
+
 .container {
   max-width: 1200px;
   flex: 1;
@@ -163,7 +169,11 @@ ul {
 .window__text {
   padding: 14px;
   font-size: 27px;
-  line-height: 1.4em;
+  line-height: 1.6em;
+}
+
+.margin-fix {
+  margin-bottom: 0;
 }
 
 .window__text--pink {
@@ -182,7 +192,7 @@ ul {
   height: 50px;
   background: #fafafa;
   width: 100%;
-  position: fixed;
+  /* position: fixed; */
   bottom: 0;
 }
 
