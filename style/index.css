@@ -39,6 +39,7 @@ ul {
   height: 70px;
   align-items: center;
   flex-wrap: wrap;
+  padding: 0 10px;
 }
 
 .header__logo {
