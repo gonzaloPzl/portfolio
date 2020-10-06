@@ -2,10 +2,37 @@
 
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 860px) {
+  .hero__details {
+    left: 0;
+  }
+}
 
+@media screen and (max-width: 767px) {
+  .hero__name {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 548px) {
+  .hero__details {
+    display: block;
+  }
+  .hero__image {
+    display: flex;
+    margin: auto;
+    width: auto;
+    max-width: 200px;
+  }
 }
 
 @media screen and (max-width: 480px) {
-
+  .hero__details {
+    left: 40;
+  }
+}
+@media screen and (max-width: 320px) {
+ .hero__animationTittle {
+   font-size: 25px;
+ }
 }

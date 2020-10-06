@@ -64,15 +64,18 @@
   80%, 90% { top: -160px; }
 }
 
+.css {
+  color: #2c6fff;
+}
 .react {
   color: #61DAFB;
 }
-.node {
-  color: #83CD29;
+.javascript {
+  color: #cdd832;
 }
 .webpack {
   color: #8ED5FA;
 }
-.jest {
-  color: #C96F89;
+.postman {
+  color: #ff6325;
 }

@@ -88,13 +88,12 @@ ul {
   align-items: center;
   position: relative;
   left: -50px;
+  padding: 10px;
 }
 
 .hero__image {
-  height: 278px;
-  width: 278px;
+  width: 40%;
   border-radius: 50%;
-  background: url(../assets/perfil.png);
 }
 
 .hero__info {
