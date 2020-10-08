@@ -133,6 +133,7 @@ ul {
   gap: 10px;
   margin: auto;
   max-width: 1200px;
+  padding: 1em;
 }
 
 .window:nth-of-type(1) {
